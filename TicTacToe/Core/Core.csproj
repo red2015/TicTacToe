@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Paint\Canvases\Canvas.cs" />
+    <Compile Include="Paint\Canvases\CanvasType.cs" />
+    <Compile Include="Paint\Canvases\EnumUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Game\" />
     <Folder Include="NeuralNetwork\" />
-    <Folder Include="Paint\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
